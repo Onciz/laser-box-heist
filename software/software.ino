@@ -42,7 +42,7 @@ void loop() {
       btnPin = BUTTON1;
     }
     digitalWrite(laserPin, HIGH);
-    delay(100);
+    delay(150);
     if (!digitalRead(prevBtnPin)) {
       if (!enabled) {
         enabled = true;
